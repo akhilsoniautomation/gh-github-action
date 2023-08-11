@@ -8,3 +8,7 @@ jobs:
         run: echo "Hellow world"
       - name: Print goodbye
         run: echo "Good Bye"
+      - name: Print multipe lines
+        run: |
+          echo "line 1"
+          echo "line 2"
